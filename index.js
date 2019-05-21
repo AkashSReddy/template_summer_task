@@ -33,5 +33,5 @@ app.post("/postroute", (req, res, next) => {
 //Port setup
 
 app.listen(3000, function() {
-  console.log("Movie App has started");
+  console.log("Listening on port 3000");
 });
