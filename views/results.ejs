@@ -1,0 +1,17 @@
+<!-- Style this page and change it as per your need. You may add new ejs files too.. -->
+
+<html>
+  <head>
+    <title>Result page</title>
+  </head>
+  <body>
+    <h1>Welcome to my page</h1>
+    <h3><%= data.name %></h3>
+    <br />
+    <form action="/postroute" method="POST">
+      <textarea name="text" id="name" cols="30" rows="10"></textarea>
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
