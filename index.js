@@ -25,8 +25,7 @@ app.get("/", (req, res) => {
  */
 
 app.post("/postroute", (req, res, next) => {
-  console.log(req.body.name);
-  alert("POST route success");
+  console.log(req.body.text);
   res.redirect("/");
 });
 
